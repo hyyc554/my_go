@@ -12,9 +12,7 @@ func main() {
 				tmp := a[i]
 				a[i] = a[j]
 				a[j] = tmp
-
 			}
-
 		}
 	}
 	fmt.Println(a)
